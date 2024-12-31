@@ -1,0 +1,47 @@
+2024-12-31 11:06:32,192 INFO StartupInfoLogger [main] Starting DemoApplication using Java 23.0.1 with PID 38544 (D:\Code\demo\target\classes started by lcng5 in D:\Code\demo)
+2024-12-31 11:06:32,203 DEBUG StartupInfoLogger [main] Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-31 11:06:32,205 INFO SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2024-12-31 11:06:36,281 INFO RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-31 11:06:42,934 INFO RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 6641 ms. Found 1 JPA repository interface.
+2024-12-31 11:06:43,581 INFO TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+2024-12-31 11:06:43,602 INFO DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-31 11:06:43,606 INFO DirectJDKLog [main] Starting service [Tomcat]
+2024-12-31 11:06:43,606 INFO DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-31 11:06:43,678 INFO DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2024-12-31 11:06:43,680 INFO ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 11417 ms
+2024-12-31 11:06:47,232 INFO LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-31 11:06:47,296 INFO Version [main] HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-31 11:06:47,341 INFO RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+2024-12-31 11:06:47,677 INFO SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-31 11:06:47,715 INFO HikariDataSource [main] HikariPool-1 - Starting...
+2024-12-31 11:06:48,196 INFO HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a44effb
+2024-12-31 11:06:48,197 INFO HikariDataSource [main] HikariPool-1 - Start completed.
+2024-12-31 11:06:48,292 INFO JdbcEnvironmentInitiator [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-31 11:06:49,247 INFO JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-31 11:06:49,313 INFO AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-31 11:06:49,647 WARN JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-31 11:06:53,225 INFO DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2024-12-31 11:06:53,256 INFO TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+2024-12-31 11:06:53,268 INFO StartupInfoLogger [main] Started DemoApplication in 21.664 seconds (process running for 22.525)
+2024-12-31 11:10:36,432 INFO DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-31 11:10:36,432 INFO FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-12-31 11:10:36,434 INFO FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2024-12-31 11:10:36,443 INFO LoggingFilter [http-nio-8080-exec-1] Incoming Request: GET /api/users
+2024-12-31 11:10:36,444 INFO LoggingFilter [http-nio-8080-exec-1] Query String: None
+2024-12-31 11:10:36,747 WARN SpringDataJacksonConfiguration$PageModule$WarningLoggingModifier [http-nio-8080-exec-1] Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-31 11:10:36,785 INFO LoggingFilter [http-nio-8080-exec-1] Response Status: 200
+2024-12-31 11:10:36,786 INFO LoggingFilter [http-nio-8080-exec-1] Response Body: 
+2024-12-31 11:11:48,350 INFO LoggingFilter [http-nio-8080-exec-3] Incoming Request: GET /api/users
+2024-12-31 11:11:48,351 INFO LoggingFilter [http-nio-8080-exec-3] Query String: None
+2024-12-31 11:11:48,365 INFO LoggingFilter [http-nio-8080-exec-3] Response Status: 200
+2024-12-31 11:11:48,365 INFO LoggingFilter [http-nio-8080-exec-3] Response Body: 

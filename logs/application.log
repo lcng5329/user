@@ -1,0 +1,132 @@
+2024-12-30T12:21:27.323+08:00  INFO 20200 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 20200 (D:\Code\demo\target\classes started by lcng5 in D:\Code\demo)
+2024-12-30T12:21:27.326+08:00 DEBUG 20200 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30T12:21:27.328+08:00  INFO 20200 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T12:21:32.158+08:00  INFO 20200 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-30T12:21:40.905+08:00  INFO 20200 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8729 ms. Found 1 JPA repository interface.
+2024-12-30T12:21:41.610+08:00  INFO 20200 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-30T12:21:41.655+08:00  INFO 20200 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-30T12:21:41.655+08:00  INFO 20200 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30T12:21:41.750+08:00  INFO 20200 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-30T12:21:41.750+08:00  INFO 20200 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14355 ms
+2024-12-30T12:21:41.803+08:00 DEBUG 20200 --- [demo] [main] o.s.w.f.CommonsRequestLoggingFilter      : Filter 'requestLoggingFilter' configured for use
+2024-12-30T12:21:45.270+08:00  INFO 20200 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-30T12:21:45.362+08:00  INFO 20200 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-30T12:21:45.415+08:00  INFO 20200 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-30T12:21:45.831+08:00  INFO 20200 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-30T12:21:45.879+08:00  INFO 20200 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-30T12:21:46.509+08:00  INFO 20200 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f5c187d
+2024-12-30T12:21:46.513+08:00  INFO 20200 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-30T12:21:46.642+08:00  INFO 20200 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-30T12:21:47.788+08:00  INFO 20200 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-30T12:21:48.108+08:00  INFO 20200 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T12:21:48.501+08:00  WARN 20200 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-30T12:21:48.631+08:00 DEBUG 20200 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 5 mappings in 'requestMappingHandlerMapping'
+2024-12-30T12:21:52.029+08:00 DEBUG 20200 --- [demo] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-30T12:21:52.075+08:00 DEBUG 20200 --- [demo] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-30T12:21:52.137+08:00 DEBUG 20200 --- [demo] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-30T12:21:52.284+08:00  INFO 20200 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-30T12:21:52.294+08:00  INFO 20200 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 25.564 seconds (process running for 26.145)
+2024-12-30T12:25:03.124+08:00  INFO 20200 --- [demo] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-30T12:25:03.125+08:00  INFO 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-30T12:25:03.127+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-12-30T12:25:03.127+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-12-30T12:25:03.128+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-12-30T12:25:03.130+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f5a092e
+2024-12-30T12:25:03.130+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5bc40f5d
+2024-12-30T12:25:03.131+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-30T12:25:03.131+08:00  INFO 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2024-12-30T12:25:03.162+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : Before request [GET /api/users, client=0:0:0:0:0:0:0:1, headers=[user-agent:"PostmanRuntime/7.43.0", accept:"*/*", postman-token:"da686e4d-a895-4caf-b6b1-8f7571bd0c00", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"160", Content-Type:"multipart/form-data;boundary=--------------------------585821636006569545882721;charset=UTF-8"]]
+2024-12-30T12:25:03.169+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/api/users", parameters={multipart}
+2024-12-30T12:25:03.216+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.example.demo.controller.UserController#getUsers(int)
+2024-12-30T12:25:03.568+08:00  WARN 20200 --- [demo] [http-nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+2024-12-30T12:25:03.579+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-30T12:25:03.582+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [Page 1 of 1 containing com.example.demo.entity.User instances]
+2024-12-30T12:25:03.620+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-30T12:25:03.620+08:00 DEBUG 20200 --- [demo] [http-nio-8080-exec-2] o.s.w.f.CommonsRequestLoggingFilter      : After request [GET /api/users, client=0:0:0:0:0:0:0:1, headers=[user-agent:"PostmanRuntime/7.43.0", accept:"*/*", postman-token:"da686e4d-a895-4caf-b6b1-8f7571bd0c00", host:"localhost:8080", accept-encoding:"gzip, deflate, br", connection:"keep-alive", content-length:"160", Content-Type:"multipart/form-data;boundary=--------------------------585821636006569545882721;charset=UTF-8"]]
+2024-12-30T17:55:57.456+08:00  INFO 63472 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 23.0.1 with PID 63472 (D:\Code\demo\target\classes started by lcng5 in D:\Code\demo)
+2024-12-30T17:55:57.457+08:00 DEBUG 63472 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v3.4.1, Spring v6.2.1
+2024-12-30T17:55:57.460+08:00  INFO 63472 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2024-12-30T17:56:01.035+08:00  INFO 63472 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-30T17:56:07.570+08:00  INFO 63472 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6524 ms. Found 1 JPA repository interface.
+2024-12-30T17:56:08.183+08:00  INFO 63472 --- [demo] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-30T17:56:08.205+08:00  INFO 63472 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-30T17:56:08.205+08:00  INFO 63472 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-30T17:56:08.285+08:00  INFO 63472 --- [demo] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-30T17:56:08.285+08:00  INFO 63472 --- [demo] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10754 ms
+2024-12-30T17:56:11.312+08:00  INFO 63472 --- [demo] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-30T17:56:11.398+08:00  INFO 63472 --- [demo] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-30T17:56:11.442+08:00  INFO 63472 --- [demo] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-30T17:56:11.806+08:00  INFO 63472 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-30T17:56:11.847+08:00  INFO 63472 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-30T17:56:12.441+08:00  INFO 63472 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d7c9811
+2024-12-30T17:56:12.445+08:00  INFO 63472 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-30T17:56:12.567+08:00  INFO 63472 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.40
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-30T17:56:13.526+08:00  INFO 63472 --- [demo] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-30T17:56:13.631+08:00  INFO 63472 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T17:56:13.642+08:00  WARN 63472 --- [demo] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestResponseLoggingFilter': Lookup method resolution failed
+2024-12-30T17:56:13.643+08:00  INFO 63472 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-30T17:56:13.648+08:00  INFO 63472 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-30T17:56:13.665+08:00  INFO 63472 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-30T17:56:13.669+08:00  INFO 63472 --- [demo] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-12-30T17:56:13.686+08:00  INFO 63472 --- [demo] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-30T17:56:13.712+08:00 ERROR 63472 --- [demo] [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestResponseLoggingFilter': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1316) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1211) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030) ~[spring-beans-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.1.jar:6.2.1]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.4.1.jar:3.4.1]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.4.1.jar:3.4.1]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[classes/:na]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.demo.config.RequestResponseLoggingFilter] from ClassLoader [jdk.internal.loader.ClassLoaders$AppClassLoader@6bc7c054]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.2.1.jar:6.2.1]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.2.1.jar:6.2.1]
+	... 21 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: ServletRequest
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3650) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2735) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.2.1.jar:6.2.1]
+	... 23 common frames omitted
+Caused by: java.lang.ClassNotFoundException: ServletRequest
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:528) ~[na:na]
+	... 27 common frames omitted
+
